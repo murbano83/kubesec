@@ -50,7 +50,7 @@ func (f *simpleFormatter) Format(entry *log.Entry) ([]byte, error) {
 	return b.Bytes(), nil
 }
 
-func main() {
+func kubesec() {
 	completion := cli.NewCompletion()
 	completed, err := completion.Execute()
 	if err != nil {
